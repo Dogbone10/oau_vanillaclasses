@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredients/L/code",
+    "value": "flaxtwine",
+    "file": "game:recipes/grid/poultice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/L/type",
+    "value": "item",
+    "file": "game:recipes/grid/poultice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredients/L/code",
+    "value": "flaxtwine",
+    "file": "game:recipes/grid/poultice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredients/L/type",
+    "value": "item",
+    "file": "game:recipes/grid/poultice.json",
+    "side": "Server"
+  }
+]

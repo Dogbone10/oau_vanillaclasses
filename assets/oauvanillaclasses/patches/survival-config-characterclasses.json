@@ -1,0 +1,32 @@
+[
+  {
+    "op": "add",
+    "path": "/0/traits/0",
+    "value": "furtive",
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/traits/1",
+    "value": "satiated",
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/traits/1",
+    "value": "slinger",
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/3/traits/2",
+    "value": "pilferer",
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "add",
+    "path": "/5/traits/2",
+    "value": "patient",
+    "file": "game:config/characterclasses.json"
+  }
+]

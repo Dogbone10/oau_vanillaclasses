@@ -1,0 +1,76 @@
+{
+	code: "bandage",
+	behaviors: [
+		{
+			name: "HealingItem",
+			propertiesByType: {
+				"*-patch": {
+					health: 1,
+					applicationtimesec: 1.5,
+					maxapplicationtimesec: 4.5,
+					effectdurationsec: 5,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-stitch": {
+					health: 16,
+					applicationtimesec: 8,
+					maxapplicationtimesec: 16,
+					effectdurationsec: 40,
+					ticks: 40,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-medkit": {
+					health: 20,
+					applicationtimesec: 12,
+					maxapplicationtimesec: 16,
+					effectdurationsec: 60,
+					ticks: 60,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				}
+				
+			}
+		}
+	],
+	attributes: {
+        displayable: {
+            shelf: {
+                size: { width: 7, height: 1, length: 8 },
+				behavior: "Stacking",
+				category: "bandage",
+                randYRotAngle: 10
+            }
+        }		
+	},
+	maxstacksize: 16,
+	variantgroups: [
+		{ code: "type", states: ["patch", "stitch", "medkit" ] },
+	],
+	shape: { base: "item/medicine/{type}-dog" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 600,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 120, y: 41, z: 7 },
+		origin: { x: 0.5, y: 0.11, z: 0.47 },
+		scale: 4.15
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 180, y: 33, z: -180 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5.5
+	},
+	tpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 5, y: 41, z: -31 },
+		origin: { x: 0.3, y: -0.16, z: 0.12 },
+		scale: 0.85
+	}
+}

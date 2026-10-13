@@ -1,0 +1,17 @@
+{
+  "Type": "Content",
+  "TextureSize": 32,
+  "Name": "Overhauled and Underappreciated - Vanilla Classes",
+  "Version": "1.0.0",
+  "Description": "",
+  "Website": "",
+  "ModID": "oauvanillaclasses",
+  "Authors": [
+    "Dogbone10"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

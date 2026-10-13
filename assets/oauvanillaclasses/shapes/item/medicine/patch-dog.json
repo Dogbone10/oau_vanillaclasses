@@ -1,0 +1,78 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"horsetail": "game:item/medicine/linen/horsetail"
+	},
+	"elements": [
+		{
+			"name": "patch1",
+			"from": [5, -0.01, 7],
+			"to": [9, 1.99, 7.5],
+			"faces": {
+				"north": {"texture": "#horsetail", "uv": [9.5, 2.5, 13.5, 4.5]},
+				"east": {"texture": "#horsetail", "uv": [13.5, 2.5, 14, 4.5]},
+				"south": {"texture": "#horsetail", "uv": [9.5, 2.5, 13.5, 4.5]},
+				"west": {"texture": "#horsetail", "uv": [9, 2.5, 9.5, 4.5]},
+				"up": {"texture": "#horsetail", "uv": [9.5, 2, 13.5, 2.5]},
+				"down": {"texture": "#horsetail", "uv": [9.5, 4.5, 13.5, 5]}
+			}
+		},
+		{
+			"name": "patch2",
+			"from": [8.2, 0.01, 6.7],
+			"to": [11.2, 2.01, 7.2],
+			"rotationOrigin": [8, 0.01, 8],
+			"faces": {
+				"north": {"texture": "#horsetail", "uv": [7, 3, 10, 5]},
+				"east": {"texture": "#horsetail", "uv": [6.5, 3, 7, 5]},
+				"south": {"texture": "#horsetail", "uv": [13, 3, 16, 5]},
+				"west": {"texture": "#horsetail", "uv": [12.5, 3, 13, 5]},
+				"up": {"texture": "#horsetail", "uv": [13, 2.5, 16, 3]},
+				"down": {"texture": "#horsetail", "uv": [7, 5, 10, 5.5]}
+			},
+			"rotationY": -32.5
+		},
+		{
+			"name": "Tail3_geo",
+			"from": [4.9, -0.01, 6.7],
+			"to": [8.9, 1.99, 7.2],
+			"rotationOrigin": [8, -0.01, 8],
+			"faces": {
+				"north": {"texture": "#horsetail", "uv": [9.5, 10, 13.5, 12]},
+				"east": {"texture": "#horsetail", "uv": [9, 7.5, 9.5, 9.5]},
+				"south": {"texture": "#horsetail", "uv": [9.5, 7.5, 13.5, 9.5]},
+				"west": {"texture": "#horsetail", "uv": [13.5, 7.5, 14, 9.5]},
+				"up": {"texture": "#horsetail", "uv": [9.5, 7, 13.5, 7.5]},
+				"down": {"texture": "#horsetail", "uv": [9.5, 9.5, 13.5, 10]}
+			},
+			"rotationX": -180,
+			"rotationY": -5,
+			"rotationZ": -180
+		},
+		{
+			"name": "Tail4",
+			"from": [7.6, 0, 6.5],
+			"to": [9.6, 2, 7],
+			"rotationOrigin": [8, 0, 8],
+			"faces": {
+				"north": {"texture": "#horsetail", "uv": [7, 11, 9, 13]},
+				"east": {"texture": "#horsetail", "uv": [6.5, 8.5, 7, 10.5]},
+				"south": {"texture": "#horsetail", "uv": [7, 8.5, 9, 10.5]},
+				"west": {"texture": "#horsetail", "uv": [9, 8.5, 9.5, 10.5]},
+				"up": {"texture": "#horsetail", "uv": [7, 10.5, 9, 11]},
+				"down": {"texture": "#horsetail", "uv": [7, 8, 9, 8.5]}
+			},
+			"rotationX": -180,
+			"rotationY": 40,
+			"rotationZ": -180
+		}
+	],
+	"animations": []
+}

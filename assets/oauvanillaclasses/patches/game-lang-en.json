@@ -1,0 +1,146 @@
+[
+  {
+    "op": "add",
+    "path": "/charattribute-animalSeekingRange--0.15",
+    "value": "-15% animal detection range",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-armorWalkSpeedAffectedness-0.25",
+    "value": "walk speed penalty for wearing armor increased by 25%",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-charattribute-rangedWeaponsAcc--0.3",
+    "value": "-30% ranged accuracy",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-healingeffectivness-0.5",
+    "value": "50% short healing application time",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-maxSaturationFactor-0.3",
+    "value": "+30% max satiety",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-temporalStabilityDropRate--0.3",
+    "value": "30% slower temporal stability loss",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-bandage-medkit",
+    "value": "Medicine Kit",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-bandage-patch",
+    "value": "Herbal patch",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-bandage-stitch",
+    "value": "Suture kit",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-sling-leather",
+    "value": "Leather sling",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-sling-makeshift",
+    "value": "Makeshift sling",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-sling-sturdy",
+    "value": "Sturdy sling",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-wrench-scrap",
+    "value": "Scrap wrench",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/trait-handy",
+    "value": "<font color=\"#84ff84\">• Handy </font>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/trait-patient",
+    "value": "<font color=\"#84ff84\">• Patient </font>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/trait-satiated",
+    "value": "<font color=\"#84ff84\">• Satiated </font>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/trait-slinger",
+    "value": "<font color=\"#84ff84\">• Slinger </font>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/traitname-handy",
+    "value": "Handy",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/traitname-patient",
+    "value": "Patient",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/traitname-satiated",
+    "value": "Satiated",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/traitname-slinger",
+    "value": "Slinger",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "replace",
+    "path": "/traitdesc-clothier",
+    "value": "Exclusive craftable <a href=\"handbooksearch://sewing kit or chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">sewing kit, clothes</a> and <a href=\"handbooksearch://herbal or suture\">medicines</a>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "replace",
+    "path": "/traitdesc-improviser",
+    "value": "Exclusive craftable <a href=\"handbooksearch://makeshift sling or sturdy sling\">slings</a>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "replace",
+    "path": "/traitdesc-tinkerer",
+    "value": "Exclusive craftable <a href=\"handbooksearch://scrap wrench\">wrench</a> and a <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts.",
+    "file": "game:lang/en.json"
+  }
+]

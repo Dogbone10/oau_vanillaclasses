@@ -1,0 +1,26 @@
+{
+	"charattribute-maxSaturationFactor-0.3": "+30% max satiety",
+	"charattribute-charattribute-rangedWeaponsAcc--0.3": "-30% ranged accuracy",
+	"charattribute-animalSeekingRange--0.15": "-15% animal detection range",
+	"charattribute-healingeffectivness-0.5": "50% short healing application time",
+	"charattribute-armorWalkSpeedAffectedness-0.25": "walk speed penalty for wearing armor increased by 25%",
+	"charattribute-temporalStabilityDropRate--0.3": "30% slower temporal stability loss",
+	
+    "trait-slinger": "<font color=\"#84ff84\">• Slinger </font>",
+    "trait-handy": "<font color=\"#84ff84\">• Handy </font>",
+    "trait-satiated": "<font color=\"#84ff84\">• Satiated </font>",
+	"trait-patient": "<font color=\"#84ff84\">• Patient </font>",
+
+	"traitname-slinger": "Slinger",
+	"traitname-handy": "Handy",
+	"traitname-satiated": "Satiated",
+	"traitname-patient": "Patient",
+
+	"item-sling-makeshift": "Makeshift sling",
+    "item-sling-leather": "Leather sling",
+    "item-sling-sturdy": "Sturdy sling",
+	"item-wrench-scrap": "Scrap wrench",
+	"item-bandage-patch": "Herbal patch",
+	"item-bandage-stitch": "Suture kit",
+	"item-bandage-medkit": "Medicine Kit"
+}
