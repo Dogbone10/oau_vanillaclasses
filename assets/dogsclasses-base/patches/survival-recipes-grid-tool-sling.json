@@ -55,7 +55,7 @@
   {
     "op": "replace",
     "path": "/1/output/code",
-    "value": "sling-leather",
+    "value": "dogsclasses-base:sling-leather",
     "file": "game:recipes/grid/tool/sling.json",
     "side": "Server"
   },
@@ -75,14 +75,14 @@
   {
     "op": "replace",
     "path": "/2/ingredients/L/code",
-    "value": "leather-sturdy-plain",
+    "value": "dogsclasses-base:leather-sturdy-plain",
     "file": "game:recipes/grid/tool/sling.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/2/output/code",
-    "value": "sling-sturdy",
+    "value": "dogsclasses-base:sling-sturdy",
     "file": "game:recipes/grid/tool/sling.json",
     "side": "Server"
   }
