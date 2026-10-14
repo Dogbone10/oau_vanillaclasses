@@ -8,25 +8,25 @@
   {
     "op": "add",
     "path": "/0/traits/1",
-    "value": "satiated",
+    "value": "dogsclasses-base:satiated",
     "file": "game:config/characterclasses.json"
   },
   {
     "op": "replace",
     "path": "/2/traits/1",
-    "value": "slinger",
+    "value": "dogsclasses-base:slinger",
     "file": "game:config/characterclasses.json"
   },
   {
     "op": "replace",
     "path": "/3/traits/2",
-    "value": "pilferer",
+    "value": "dogsclasses-base:pilferer",
     "file": "game:config/characterclasses.json"
   },
   {
     "op": "add",
     "path": "/5/traits/2",
-    "value": "patient",
+    "value": "dogsclasses-base:patient",
     "file": "game:config/characterclasses.json"
   }
 ]

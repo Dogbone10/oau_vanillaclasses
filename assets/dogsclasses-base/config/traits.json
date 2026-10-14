@@ -1,0 +1,31 @@
+[
+  	{
+		code: "slinger",
+		type: "positive",
+		attributes: {
+			"bowDrawingStrength": 0.2
+		}
+	},
+	{
+		code: "handy",
+		type: "positive",
+		attributes: {
+			"forageDropRate": 0.1,
+			"wildCropDropRate": 0.2,
+		}
+	},
+	{
+		code: "patient",
+		type: "positive",
+		attributes: {
+			"temporalStabilityDropRate": -0.3
+		}
+	},
+	{
+		code: "satiated",
+		type: "positive",
+		attributes: {
+			"maxSaturationFactor": 0.3
+		}
+	}
+]

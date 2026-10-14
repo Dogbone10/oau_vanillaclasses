@@ -405,54 +405,5 @@
       "attributes": {}
     },
     "file": "game:config/traits.json"
-  },
-  {
-    "op": "add",
-    "path": "/26",
-    "value": {
-      "code": "slinger",
-      "type": "positive",
-      "attributes": {
-        "bowDrawingStrength": 0.2
-      }
-    },
-    "file": "game:config/traits.json"
-  },
-  {
-    "op": "add",
-    "path": "/27",
-    "value": {
-      "code": "handy",
-      "type": "positive",
-      "attributes": {
-        "forageDropRate": 0.1,
-        "wildCropDropRate": 0.2
-      }
-    },
-    "file": "game:config/traits.json"
-  },
-  {
-    "op": "add",
-    "path": "/28",
-    "value": {
-      "code": "patient",
-      "type": "positive",
-      "attributes": {
-        "temporalStabilityDropRate": -0.3
-      }
-    },
-    "file": "game:config/traits.json"
-  },
-  {
-    "op": "add",
-    "path": "/29",
-    "value": {
-      "code": "satiated",
-      "type": "positive",
-      "attributes": {
-        "maxSaturationFactor": 0.3
-      }
-    },
-    "file": "game:config/traits.json"
   }
 ]
