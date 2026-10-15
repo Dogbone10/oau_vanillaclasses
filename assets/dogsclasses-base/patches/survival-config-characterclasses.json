@@ -8,7 +8,7 @@
   {
     "op": "add",
     "path": "/0/traits/1",
-    "value": "dogsclasses-base:satiated",
+    "value": "satiated",
     "file": "game:config/characterclasses.json"
   },
   {
