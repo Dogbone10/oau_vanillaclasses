@@ -1,24 +1,5 @@
 [
   {
-    "op": "add",
-    "path": "/0/ingredients/L/tags",
-    "value": {
-      "anyOf": [
-        "size-small",
-        "size-medium"
-      ]
-    },
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/0/ingredients/L/code",
-    "value": "hide-pelt-*",
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
     "op": "replace",
     "path": "/0/ingredients/L/type",
     "value": "item",
@@ -27,15 +8,15 @@
   },
   {
     "op": "replace",
-    "path": "/0/output/code",
-    "value": "sling-makeshift",
+    "path": "/0/ingredients/L/code",
+    "value": "leather-sturdy-plain",
     "file": "game:recipes/grid/tool/sling.json",
     "side": "Server"
   },
   {
     "op": "replace",
-    "path": "/0/recipegroup",
-    "value": 3,
+    "path": "/0/output/code",
+    "value": "dogsclasses-base:sling-sturdy",
     "file": "game:recipes/grid/tool/sling.json",
     "side": "Server"
   },
@@ -47,42 +28,8 @@
   },
   {
     "op": "replace",
-    "path": "/1/ingredients/L/code",
-    "value": "leather*",
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/1/output/code",
-    "value": "dogsclasses-base:sling-leather",
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/1/recipegroup",
-    "value": 1,
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/2/ingredients/L/tags",
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/2/ingredients/L/code",
-    "value": "dogsclasses-base:leather-sturdy-plain",
-    "file": "game:recipes/grid/tool/sling.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
     "path": "/2/output/code",
-    "value": "dogsclasses-base:sling-sturdy",
+    "value": "dogsclasses-base:sling-makeshift",
     "file": "game:recipes/grid/tool/sling.json",
     "side": "Server"
   }

@@ -2,15 +2,11 @@
 	code: "sling",
 	tags: [	"weapon","weapon-ranged","weapon-sling"	],
     variantgroups: [
-		{ code: "type", states: ["makeshift","leather","sturdy"] },
+		{ code: "type", states: ["makeshift","sturdy"] },
 	],
 	texturesByType: {
 		"sling-makeshift": {
 			"normal": { base: "game:block/cloth/linen/village/beige" },
-			"reedrope": { base: "game:block/cloth/ropedcloth" }
-		},
-		"sling-leather": {
-			"normal": { base: "game:block/cloth/leather/normal"	},
 			"reedrope": { base: "game:block/cloth/ropedcloth" }
 		},
 		"sling-sturdy": {
@@ -22,7 +18,6 @@
 	maxstacksize: 1,
 	durabilityByType: {
 		"sling-makeshift": 300,
-		"sling-leather": 500,
 		"sling-sturdy": 800
 	},
 	shape: {
@@ -42,18 +37,15 @@
 		aimAnimation: "slingaimbalearic",
 		damageByType: {
 			"sling-makeshift": 2.5,
-			"sling-leather": 3.5,
 			"sling-sturdy": 4
 		},
 		damageTierByType: {
 			"sling-makeshift": 0,
-			"sling-leather": 0,
 			"sling-sturdy": 0
 		},
 		statModifierByType: {
 			"sling-makeshift": {"rangedWeaponsAcc": -0.2},
-			"sling-leather": {"rangedWeaponsAcc": -0.1},
-			"sling-sturdy": {"rangedWeaponsAcc": 0}
+			"sling-sturdy": {"rangedWeaponsAcc": 0.1}
 		},
 	toolrackTransform: {
 			translation: { x: -0.05, y: 1.2, z: 0 },
