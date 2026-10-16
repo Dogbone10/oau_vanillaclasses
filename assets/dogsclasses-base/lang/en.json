@@ -24,5 +24,11 @@
 	"item-wrench-scrap": "Scrap wrench",
 	"item-bandage-patch": "Herbal patch",
 	"item-bandage-stitch": "Suture kit",
-	"item-bandage-medkit": "Medicine Kit"
+	"item-bandage-medkit": "Medicine Kit",
+
+	//Patches
+	"/traitdesc-clothier": "Exclusive craftable <a href=\"handbooksearch://sewing kit or chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">sewing kit, clothes</a> and <a href=\"handbooksearch://herbal or suture\">medicines</a>",
+    "/traitdesc-improviser":"Exclusive craftable <a href=\"handbooksearch://makeshift sling or sturdy sling\">slings</a>",
+	"/traitdesc-tinkerer": "Exclusive craftable <a href=\"handbooksearch://scrap wrench\">wrench</a> and a <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts.",
+
 }
