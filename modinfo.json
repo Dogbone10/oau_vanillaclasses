@@ -1,11 +1,11 @@
 {
   "Type": "Content",
   "TextureSize": 32,
-  "Name": "Overhauled and Underappreciated - Vanilla Classes",
+  "Name": "Dogs Classes - Base",
   "Version": "1.0.0",
-  "Description": "",
+  "Description": "A little rebalance of the vanilla classes, bringing them up to standards with eachother.",
   "Website": "",
-  "ModID": "oauvanillaclasses",
+  "ModID": "dogsclasses-base",
   "Authors": [
     "Dogbone10"
   ],

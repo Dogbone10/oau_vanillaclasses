@@ -1,0 +1,64 @@
+{
+	code: "stone",
+	class: "ItemStone",
+	variantgroups: [
+		{ code: "type", states: ["admin"] },
+	],
+	behaviorsByType: {
+		"stone-admin": [
+			{ name: "GroundStorable", 
+				properties: {
+					layout: 'Stacking',
+					ctrlKey: true,
+					placeRemoveSound: 'sounds/block/loosestone*',
+					stackingModel: 'item/stone-pile',
+					upSolid: false,
+					modelItemsToStackSizeRatio: 0.5,
+					stackingCapacity: 64,
+					transferQuantity: 2,
+					bulkTransferQuantity: 16,
+					collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.14, z2: 1 },
+					cbScaleYByLayer: 0.06
+				}
+			},
+			{ name: "Throwable", 
+				properties: { damage: 300, thrownProjectileCode: "thrownitem", damageType: "BluntAttack", randomThrowYaw: true, dropOnImpactChance: 0.9 }
+			},
+		]
+	},
+	storageFlags: 5,
+	maxstacksize: 64,
+	shape: { base: "item/stone/item-{type}" },
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+		handbook: {
+			groupBy: ["stone-*"]
+		},
+        displayable: {
+            shelf: {
+                size: { width: 5, height: 2, length: 4 }
+            }
+        },
+		inContainerTexture: { base: "block/stone/rock/{type}1" }
+	},
+	guiTransform: {
+		translation: { x: 2, y: 1, z: 0 },
+		rotation: { x: 150, y: -38, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.8
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.12, z: -0.7 },
+		rotation: { x: -44, y: 7, z: -9 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.7
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] }
+}
