@@ -18,12 +18,6 @@
 		{ code: "metal", states: ["scrap"]},
 	],
 	shape: { base: "item/tool/wrench/{metal}1" },
-	texturesByType: {
-		"*": {
-			"metal": { base: "block/metal/ingot/{metal}" },
-			"wood": { base: "item/tool/handle" }
-		}
-	},
 	attributes: {
 		attachableToEntity: { categoryCode: "toolholding" },
 		toolrackTransform: {
