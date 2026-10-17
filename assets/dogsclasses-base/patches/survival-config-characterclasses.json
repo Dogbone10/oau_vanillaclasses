@@ -14,19 +14,19 @@
   {
     "op": "replace",
     "path": "/2/traits/1",
-    "value": "dogsclasses-base:slinger",
+    "value": "slinger",
     "file": "game:config/characterclasses.json"
   },
   {
     "op": "replace",
     "path": "/3/traits/2",
-    "value": "dogsclasses-base:pilferer",
+    "value": "pilferer",
     "file": "game:config/characterclasses.json"
   },
   {
     "op": "add",
     "path": "/5/traits/2",
-    "value": "dogsclasses-base:patient",
+    "value": "patient",
     "file": "game:config/characterclasses.json"
   }
 ]

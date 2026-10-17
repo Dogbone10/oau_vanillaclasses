@@ -13,11 +13,6 @@
     "game:trait-satiated": "<font color=\"#84ff84\">• Satiated </font>",
 	"game:trait-patient": "<font color=\"#84ff84\">• Patient </font>",
 
-//	"traitname-slinger": "Slinger",
-//	"traitname-handy": "Handy",
-//	"traitname-satiated": "Satiated",
-//	"traitname-patient": "Patient",
-
 	"item-sling-makeshift": "Makeshift sling",
     "item-sling-leather": "Leather sling",
     "item-sling-sturdy": "Sturdy sling",
